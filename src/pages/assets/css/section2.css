@@ -1,0 +1,33 @@
+.section2 {
+  /* margin-top: 150px; */
+}
+
+.tempat {
+  position: relative;
+}
+
+.ornament3 {
+  position: absolute;
+  /* bottom: 30px; */
+  /* left: 0; */
+  right: -99px;
+  top: 30px;
+  width: 150%;
+}
+
+.konten2 {
+  margin-top: 15%;
+  padding-left: 0 !important;
+  /* padding-right: 0 !important; */
+  font-family: "Rubik", sans-serif;
+}
+
+.konten2 p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+.konten2 h1 {
+  font-size: 50px;
+}

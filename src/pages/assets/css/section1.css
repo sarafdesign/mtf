@@ -31,3 +31,23 @@
   top: 60px;
   left: 30px;
 }
+
+.down {
+  text-align: center;
+}
+
+.buttonDown {
+  margin-top: 200px;
+}
+
+.circle1 {
+  position: absolute;
+  right: 140px;
+  margin-top: 250px;
+}
+
+.circle2 {
+  position: absolute;
+  left: 90px;
+  margin-top: 50px;
+}
