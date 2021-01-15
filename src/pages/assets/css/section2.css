@@ -26,8 +26,38 @@
   margin-top: 5%;
   margin-bottom: 5%;
   font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .konten2 h1 {
   font-size: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .konten2 {
+    margin-left: 10px;
+    padding-right: 40px !important;
+  }
+  .ornament3 {
+    /* display: block; */
+    /* visibility: hidden; */
+    /* position: absolute; */
+    /* bottom: 30px; */
+    /* left: -78px; */
+    /* margin-left: 50% !important; */
+    /* margin-right: 50% !important; */
+    /* right: -31px; */
+    /* top: 762px; */
+    /* width: 81%; */
+    opacity: 0.3 !important;
+  }
+
+  .konten2 h1 {
+    font-size: 40px;
+  }
+
+  .konten2 p {
+    font-size: 18px;
+  }
 }

@@ -8,13 +8,18 @@ const Section2 = () => {
       <section className="container section2">
         <div className="row">
           <div className="tempat col-12 col-md-5 col-lg-5">
-            <img className="ornament3" src={Ornament3} alt="" />
+            <img
+              data-aos="fade-right"
+              className="ornament3"
+              src={Ornament3}
+              alt=""
+            />
           </div>
           <div className="konten2 col-12 col-md-7 col-lg-7">
-            <h1>
+            <h1 data-aos="fade-left">
               <b>Tentang MTF IT Business Competition</b>
             </h1>
-            <p>
+            <p data-aos="fade-left">
               IT Business Case Competition 2020 adalah ajang kompetisi yang
               ditujukan untuk mahasiswa dan professional untuk menyelesaikan
               permasalahan dalam bidang multifinance dengan menggunakan

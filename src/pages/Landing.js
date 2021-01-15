@@ -8,10 +8,12 @@ import "./assets/css/Landing.css";
 const LandingPage = () => {
   return (
     <>
-      <img className="ornamentbg" src={Ornament1} alt="" />
-      <Navbar />
-      <Section1 />
-      <Section2 />
+      <div className="wrap">
+        <img className="ornamentbg" src={Ornament1} alt="" />
+        <Navbar />
+        <Section1 />
+        <Section2 />
+      </div>
     </>
   );
 };
