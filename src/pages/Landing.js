@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./layout/Navbar";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
+import Section6 from "./components/Section6";
 import Ornament1 from "./assets/img/Ornament1.png";
 import "./assets/css/Landing.css";
 
@@ -13,6 +14,7 @@ const LandingPage = () => {
         <Navbar />
         <Section1 />
         <Section2 />
+        <Section6 />
       </div>
     </>
   );
