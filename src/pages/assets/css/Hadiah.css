@@ -30,11 +30,15 @@
 
 .kotak {
   max-width: 30% !important;
-  height: 100%;
+  height: 406px;
   margin: 5% 1%;
   background: #ffffff;
   border-radius: 10px;
   text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   color: #023e7a;
 }
 
@@ -42,22 +46,20 @@
   margin-top: 2.5%;
   font-weight: bold;
   font-size: 48px;
+  text-align: center;
 }
 
 .kotak p {
   color: black;
-  display: flex;
   font-weight: bold;
   font-size: 48px;
   text-align: center;
-  vertical-align: middle;
-  justify-content: center;
-  align-items: center;
 }
 
 .teksduit {
   font-size: 24px !important;
   font-weight: 400 !important;
+  text-align: center;
 }
 
 .hand {
