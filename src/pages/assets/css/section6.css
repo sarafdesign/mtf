@@ -1,13 +1,23 @@
 .konten6 {
   text-align: center;
+  margin-top: 70px;
+  position: relative;
+}
+
+.konten6 h1 {
+  margin-bottom: 25px;
 }
 
 .gmbrkalender {
   width: 10%;
+  margin-bottom: 15px;
 }
 
 .kontainerbar {
   width: 100%;
+  height: 300px;
+  text-align: center;
+  /* margin-bottom: 70px; */
 }
 
 .progressbar {
@@ -20,6 +30,11 @@
   width: 25%;
   position: relative;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.progressbar li b {
+  font-size: 25px;
 }
 
 .progressbar li::before {
@@ -28,7 +43,7 @@
   width: 60px;
   height: 60px;
   line-height: 50px;
-  border: 2px dashed #d0d7e0;
+  border: 4px dashed #d0d7e0;
   display: block;
   text-align: center;
   margin: 0 auto 10px auto;
@@ -45,7 +60,7 @@
   top: 28px;
   left: -50%;
   z-index: -1;
-  border: 2px dashed #d0d7e0;
+  border: 3px dashed #d0d7e0;
 }
 
 .progressbar li:first-child:after {
@@ -65,5 +80,19 @@
 }
 
 .progressbar li.active + li:after {
-  border: 2px dashed #023e7a;
+  border: 3px dashed #023e7a;
+}
+
+.ornament4 {
+  position: absolute;
+  left: 0;
+  width: 25%;
+  top: -80px;
+}
+
+.ornament5 {
+  position: absolute;
+  right: 0;
+  width: 35%;
+  top: -136px;
 }
