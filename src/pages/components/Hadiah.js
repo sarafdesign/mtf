@@ -13,7 +13,7 @@ const Hadiah = () => {
         <section className="container hadiah">
           <div className="top">
             <h1>Hadiah Peserta</h1>
-            <br />
+            <br/>
             <h3>
               Selain mendapatkan pengalaman yang berharga dan mengembangkan
               kompetensi kamu, kamu juga berkesempatan memenangkan hadiah
