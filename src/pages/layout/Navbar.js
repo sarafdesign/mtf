@@ -30,49 +30,49 @@ const Navbar = () => {
         >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <button className="nav-link">
+              <a className="nav-link">
                 Beranda
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="nav-link">
+              <a className="nav-link">
                 Tentang
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="nav-link">
+              <a className="nav-link">
                 Peserta
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="nav-link">
+              <a className="nav-link">
                 Hadiah
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="nav-link">
+              <a className="nav-link">
                 Kategori
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="nav-link">
+              <a className="nav-link">
                 Timeline
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="nav-link">
+              <a className="nav-link">
                 Kriteria
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="nav-link">
+              <a className="nav-link">
                 FAQ
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="nav-link">
+              <a className="nav-link">
                 <b>Masuk</b>
-              </button>
+              </a>
             </li>
             <li className="nav-item">
               <button className="nav-link">
