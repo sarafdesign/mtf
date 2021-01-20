@@ -19,14 +19,14 @@ const Section7 = () => {
           </h1>
           <div className="row">
             <div data-aos="flip-right" className="col-12 col-md-6 col-lg-6">
-              <img src={kriteria1} className="gambarkriteria" />
+              <img src={kriteria1} className="gambarkriteria" alt="" />
               <h3>
                 <b>Originalitas</b>
               </h3>
               <h5>Aplikasi merupakan sesuatu yang baru</h5>
             </div>
             <div data-aos="flip-left" className="col-12 col-md-6 col-lg-6">
-              <img src={kriteria2} className="gambarkriteria" />
+              <img src={kriteria2} className="gambarkriteria" alt="" />
 
               <h3>
                 <b>Tepat Guna</b>
@@ -37,7 +37,7 @@ const Section7 = () => {
               </h5>
             </div>
             <div data-aos="flip-right" className="col-12 col-md-6 col-lg-6">
-              <img src={kriteria3} className="gambarkriteria" />
+              <img src={kriteria3} className="gambarkriteria" alt="" />
               <h3>
                 <b>UI & UX</b>
               </h3>
@@ -47,7 +47,7 @@ const Section7 = () => {
               </h5>
             </div>
             <div data-aos="flip-left" className="col-12 col-md-6 col-lg-6">
-              <img src={kriteria4} className="gambarkriteria" />
+              <img src={kriteria4} className="gambarkriteria" alt="" />
               <h3>
                 <b>Dampak Aplikasi</b>
               </h3>
@@ -60,9 +60,9 @@ const Section7 = () => {
           </div>
         </div>
         <div className="ornamentkonten7">
-          <img data-aos="fade-down" src={ornament6} className="ornament6" />
-          <img data-aos="fade-right" src={ornament7} className="ornament7" />
-          <img src={ornament8} className="ornament8" />
+          <img data-aos="fade-down" src={ornament6} className="ornament6" alt="" />
+          <img data-aos="fade-right" src={ornament7} className="ornament7" alt="" />
+          <img src={ornament8} className="ornament8" alt="" />
         </div>
       </section>
     </>

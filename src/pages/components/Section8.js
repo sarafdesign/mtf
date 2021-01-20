@@ -32,27 +32,27 @@ const Section8 = () => {
           </h1>
           <div data-aos="fade-up">
             <Carousel className="gallery" arrows infinite>
-              <img className="gbrgallery" src={gambar1} />
-              <img className="gbrgallery" src={gambar2} />
-              <img className="gbrgallery" src={gambar3} />
-              <img className="gbrgallery" src={gambar4} />
-              <img className="gbrgallery" src={gambar5} />
-              <img className="gbrgallery" src={gambar6} />
-              <img className="gbrgallery" src={gambar7} />
-              <img className="gbrgallery" src={gambar8} />
-              <img className="gbrgallery" src={gambar9} />
-              <img className="gbrgallery" src={gambar10} />
-              <img className="gbrgallery" src={gambar11} />
-              <img className="gbrgallery" src={gambar12} />
-              <img className="gbrgallery" src={gambar13} />
-              <img className="gbrgallery" src={gambar14} />
-              <img className="gbrgallery" src={gambar15} />
-              <img className="gbrgallery" src={gambar16} />
+              <img className="gbrgallery" src={gambar1} alt="" />
+              <img className="gbrgallery" src={gambar2} alt="" />
+              <img className="gbrgallery" src={gambar3} alt="" />
+              <img className="gbrgallery" src={gambar4} alt="" />
+              <img className="gbrgallery" src={gambar5} alt="" />
+              <img className="gbrgallery" src={gambar6} alt="" />
+              <img className="gbrgallery" src={gambar7} alt="" />
+              <img className="gbrgallery" src={gambar8} alt="" />
+              <img className="gbrgallery" src={gambar9} alt="" />
+              <img className="gbrgallery" src={gambar10} alt="" />
+              <img className="gbrgallery" src={gambar11} alt="" />
+              <img className="gbrgallery" src={gambar12} alt="" />
+              <img className="gbrgallery" src={gambar13} alt="" />
+              <img className="gbrgallery" src={gambar14} alt="" />
+              <img className="gbrgallery" src={gambar15} alt="" />
+              <img className="gbrgallery" src={gambar16} alt="" />
             </Carousel>
           </div>
         </div>
-        <img data-aos="fade-down" className="ornament9" src={ornament9} />
-        <img data-aos="fade-left" className="cloud2" src={cloud2} />
+        <img data-aos="fade-down" className="ornament9" src={ornament9} alt="" />
+        <img data-aos="fade-left" className="cloud2" src={cloud2} alt="" />
       </section>
     </>
   );
