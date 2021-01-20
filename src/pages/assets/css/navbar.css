@@ -1,0 +1,16 @@
+nav {
+  font-family: "Rubik", sans-serif;
+}
+.nav-item {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button.nav-link {
+  border-radius: 20px;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  outline: none;
+  /* border: none; */
+  background-color: transparent;
+}

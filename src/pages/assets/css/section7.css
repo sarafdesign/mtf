@@ -1,0 +1,53 @@
+.konten7 {
+  text-align: center;
+  position: relative;
+}
+
+.konten7 h5 {
+  font-size: 20px;
+}
+.konten7 h1 {
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.konten7 .gambarkriteria {
+  width: 50%;
+}
+.ornament6 {
+  position: absolute;
+  left: 10%;
+  top: -6%;
+  z-index: -1;
+  width: 15%;
+}
+.ornament7 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+}
+
+.ornament8 {
+  position: absolute;
+  right: 0;
+  top: 20%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 500px) {
+  .ornament6 {
+    position: absolute;
+    left: 10%;
+    top: -6%;
+    z-index: -1;
+    width: 30%;
+    opacity: 0.2 !important;
+  }
+  .ornament8 {
+    opacity: 0.2;
+  }
+  .ornament7 {
+    opacity: 0.2 !important;
+  }
+}
