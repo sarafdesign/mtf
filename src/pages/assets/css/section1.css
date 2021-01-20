@@ -1,0 +1,91 @@
+.konten {
+  margin-top: 15%;
+  padding-left: 0 !important;
+  /* padding-right: 0 !important; */
+  font-family: "Rubik", sans-serif;
+}
+
+.konten p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.konten h1 {
+  font-size: 50px;
+}
+
+.konten button {
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #023e7a;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.ornament2 {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+
+.down {
+  text-align: center;
+}
+
+.buttonDown {
+  margin-top: 200px;
+}
+
+.circle1 {
+  position: absolute;
+  right: 140px;
+  margin-top: 250px;
+}
+
+.circle2 {
+  position: absolute;
+  left: 90px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .ornament2 {
+    width: 100%;
+    position: absolute;
+    left: 173px;
+    top: -30px;
+    overflow-x: hidden;
+  }
+  .konten {
+    margin-left: 10px;
+    padding-right: 40px !important;
+  }
+  .konten h1 {
+    font-size: 40px;
+  }
+  .buttonDown {
+    margin-top: 100px;
+  }
+  .circle1 {
+    /* visibility: hidden; */
+    width: 70%;
+    position: absolute;
+    right: 209px;
+    margin-top: 25px;
+  }
+
+  .circle2 {
+    visibility: hidden;
+    /* width: 70%;
+
+    position: absolute;
+    left: 128px;
+    margin-top: 167px; */
+  }
+}

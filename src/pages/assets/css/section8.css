@@ -1,0 +1,49 @@
+.konten8 {
+  text-align: center;
+  margin-top: 10%;
+  position: relative;
+}
+
+.gallery {
+  margin: 50px;
+}
+
+.gbrgallery {
+  width: 100%;
+}
+
+.ornament9 {
+  position: absolute;
+  top: -100px;
+  left: 500px;
+  width: 13%;
+}
+
+.cloud2 {
+  position: absolute;
+  top: -120px;
+  right: 402px;
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .gbrgallery {
+    width: 100%;
+  }
+  .ornament9 {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 25%;
+    /* z-index: -99; */
+    opacity: 0.9 !important;
+  }
+
+  .cloud2 {
+    visibility: hidden;
+  }
+}
