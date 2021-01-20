@@ -27,7 +27,7 @@
 .progressbar li {
   list-style-type: none;
   float: left;
-  width: 25%;
+  width: 24%;
   position: relative;
   text-align: center;
   margin-bottom: 50px;
@@ -95,4 +95,47 @@
   right: 0;
   width: 35%;
   top: -136px;
+}
+
+@media screen and (max-width: 500px) {
+  .gmbrkalender {
+    width: 20%;
+    margin-bottom: 15px;
+  }
+
+  .ornament4 {
+    position: absolute;
+    left: -46px;
+    width: 50%;
+    top: -78px;
+    z-index: -99;
+    opacity: 0.2 !important;
+  }
+
+  .ornament5 {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    top: -110px;
+    z-index: -99;
+    opacity: 0.2 !important;
+  }
+
+  .progressbar li b {
+    font-size: 10px;
+  }
+  .progressbar li p {
+    font-size: 10px;
+  }
+  .progressbar li {
+    width: 21%;
+  }
+  .progressbar li::before {
+    width: 50px;
+    height: 50px;
+  }
+
+  .progressbar li:after {
+    top: 23px;
+  }
 }

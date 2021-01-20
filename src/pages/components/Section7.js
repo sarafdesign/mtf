@@ -14,7 +14,7 @@ const Section7 = () => {
     <>
       <section className="konten7">
         <div className="container">
-          <h1>
+          <h1 data-aos="fade-down">
             <b>Kriteria Penilaian</b>
           </h1>
           <div className="row">
