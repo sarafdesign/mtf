@@ -1,0 +1,93 @@
+.content {
+  margin-top: 5%;
+  font-family: "Rubik", sans-serif;
+}
+
+.content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.content p {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.point {
+  margin-top: 5%;
+}
+
+.point-content {
+  margin-bottom: 5%;
+}
+
+.rectangle-odd {
+  width: 56px;
+  height: 56px;
+  float: left;
+
+  background: #023e7a;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.rectangle-even {
+  width: 56px;
+  height: 56px;
+  float: right;
+
+  background: #facc07;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.text-odd {
+  margin-left: 7.5%;
+}
+
+.text-even {
+  text-align: right;
+  margin-right: 7.5%;
+}
+
+.rectangle-keterangan {
+  width: 800px;
+  height: 180px;
+  margin: 10px auto;
+  display: flex;
+  background: #023e7a fixed center;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.phone {
+  position: absolute;
+  width: 25%;
+  height: auto;
+  margin-top: -750px;
+  right: 0px;
+}
+
+.button {
+  position: absolute;
+  margin-top: -920px;
+  right: 300px;
+}
+
+.circle {
+  position: absolute;
+  margin-top: -720px;
+  left: 100px;
+}

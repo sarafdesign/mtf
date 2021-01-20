@@ -1,0 +1,72 @@
+.lamp {
+  padding-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kategori {
+  font-family: "Rubik", sans-serif;
+}
+
+.kategori h1 {
+  margin-top: 2%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.backgroundk {
+  margin-top: 2.5%;
+  background-color: #facc07;
+}
+
+.carousel {
+  padding: 5% 0%;
+}
+
+.rectkategori {
+  width: 505px;
+  height: 406px;
+  color: black;
+  background: white;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.rectkategori h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.comp {
+  position: absolute;
+  right: 100px;
+  margin-top: -216px;
+}
+
+.bunderan {
+  position: absolute;
+  left: 100px;
+  margin-top: -500px;
+}
+
+.numbering {
+  width: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  font-size: 32px;
+  border: 3px solid #000;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

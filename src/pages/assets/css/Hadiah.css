@@ -1,0 +1,79 @@
+.background {
+  background-color: #023e7a;
+  margin-top: 5%;
+  font-family: "Rubik", sans-serif;
+}
+
+.trophy {
+  padding-top: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 10%; */
+}
+
+.hadiah {
+  color: white;
+}
+
+.hadiah h1 {
+  margin-top: 2%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.hadiah h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.kotak {
+  max-width: 30% !important;
+  height: 406px;
+  margin: 5% 1%;
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #023e7a;
+}
+
+.kotak h2 {
+  margin-top: 2.5%;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+
+.kotak p {
+  color: black;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+
+.teksduit {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  text-align: center;
+}
+
+.hand {
+  position: absolute;
+  margin-top: -300px;
+  left: 25px;
+  height: auto;
+  width: 400px;
+}
+
+.bulet {
+  position: absolute;
+  margin-top: -250px;
+  right: 100px;
+  height: auto;
+  width: 500px;
+}
