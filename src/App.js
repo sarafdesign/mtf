@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import LandingPage from "./pages/Landing";
 import "./App.css";
 import Aos from "aos";
