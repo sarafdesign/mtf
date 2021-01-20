@@ -36,7 +36,7 @@ const Section1 = () => {
         <img data-aos="fade-up" className="circle2" src={Circle2} alt="" />
 
         <div className="down">
-          <img data-aos="fade-down" className="buttonDown" src={ButtonDown} />
+          <img data-aos="fade-down" className="buttonDown" src={ButtonDown} alt="" />
         </div>
       </section>
     </>

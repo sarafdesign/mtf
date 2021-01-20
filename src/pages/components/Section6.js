@@ -9,12 +9,12 @@ const Section6 = () => {
     <>
       <section className="container">
         <div className="konten6">
-          <img data-aos="fade-up" src={Schedule} className="gmbrkalender" />
+          <img data-aos="fade-up" src={Schedule} className="gmbrkalender" alt="" />
           <h1 data-aos="fade-up">
             <b>Timeline</b>
           </h1>
-          <img data-aos="fade-right" src={Cloud} className="ornament4" />
-          <img data-aos="fade-left" src={element} className="ornament5" />
+          <img data-aos="fade-right" src={Cloud} className="ornament4" alt="" />
+          <img data-aos="fade-left" src={element} className="ornament5" alt="" />
         </div>
         <div data-aos="fade-up" className="kontainerbar">
           <ul className="progressbar">
