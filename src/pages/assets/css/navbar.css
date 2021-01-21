@@ -6,6 +6,10 @@ nav {
   font-size: 16px;
 }
 
+#beranda #tentang #ketentuan #hadiah #kategori #timeline #kriteria #faq {
+  scroll-behavior: smooth;
+}
+
 button.nav-link {
   border-radius: 20px;
   padding-left: 40px !important;

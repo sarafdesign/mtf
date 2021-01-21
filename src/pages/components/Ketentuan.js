@@ -7,12 +7,12 @@ import Phone from "../assets/img/Saly-12.svg";
 const Ketentuan = () => {
   return (
     <>
-      <section className="container">
+      <section className="container" id="ketentuan">
         <div className="row justify-content-center">
           <div className="content col-12 col-md-12 col-lg-12">
-            <h1>Ketentuan Peserta</h1>
+            <h1 data-aos="fade-up">Ketentuan Peserta</h1>
             <div className="point">
-              <div className="point-content">
+              <div className="point-content" data-aos="fade-right">
                 <div className="rectangle-odd">
                   {" "}
                   <p className="number">1</p>
@@ -22,7 +22,7 @@ const Ketentuan = () => {
                   perkuliahan dan atau telah lulus perkuliahan
                 </h2>
               </div>
-              <div className="point-content">
+              <div className="point-content" data-aos="fade-left">
                 <div className="rectangle-even">
                   {" "}
                   <p className="number">2</p>
@@ -32,7 +32,7 @@ const Ketentuan = () => {
                   berbasis teknologi dan digital pada bidang multifinance
                 </h2>
               </div>
-              <div className="point-content">
+              <div className="point-content" data-aos="fade-right">
                 <div className="rectangle-odd">
                   {" "}
                   <p className="number">3</p>
@@ -43,7 +43,7 @@ const Ketentuan = () => {
                 </h2>
               </div>
             </div>
-            <div className="point-content">
+            <div className="point-content" data-aos="fade-left">
               <div className="rectangle-even">
                 {" "}
                 <p className="number">4</p>
@@ -53,9 +53,9 @@ const Ketentuan = () => {
                 punya hubungan internal dengan karyawan Mandiri Tunas Finance
               </h2>
             </div>
-            <div className="keterangan">
-              <div className="rectangle-keterangan">
-                <p>
+            <div className="card keterangan" data-aos="flip-up">
+              <div className="card-body">
+                <p className="card-text">
                   Kami mengajak kamu untuk bergabung dan mengikuti IT Business
                   Case Competition 2021
                 </p>
@@ -63,9 +63,9 @@ const Ketentuan = () => {
             </div>
           </div>
         </div>
-        <img src={Phone} alt="" className="phone" />
-        <img src={Button} alt="" className="button" />
-        <img src={CirclePack} alt="" className="circle" />
+        <img src={Phone} alt="" className="phone" data-aos="fade-left" />
+        <img src={Button} alt="" className="button" data-aos="zoom-in" />
+        <img src={CirclePack} alt="" className="circle" data-aos="fade-right" />
       </section>
     </>
   );

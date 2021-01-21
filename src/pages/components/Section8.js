@@ -25,7 +25,7 @@ import Carousel from "@brainhubeu/react-carousel";
 const Section8 = () => {
   return (
     <>
-      <section className="konten8">
+      <section className="konten8" id="gallery">
         <div className="container">
           <h1 data-aos="fade-down">
             <b>Gallery</b>

@@ -7,19 +7,19 @@ import Flag from "../assets/img/Saly-15.svg";
 const Faq = () => {
   return (
     <>
-      <section className="faq-section">
-        <img src={Graph} alt="" className="graph" />
-        <img src={Tri} alt="" className="tri" />
-        <img src={Flag} alt="" className="flag" />
+      <section className="faq-section" id="faq">
+        <img src={Graph} alt="" className="graph" data-aos="fade-right" />
+        <img src={Tri} alt="" className="tri" data-aos="zoom-in" />
+        <img src={Flag} alt="" className="flag" data-aos="fade-left" />
         <div className="container">
           <div className="row">
             <div className="col-md-12 offset-md-12">
-              <div className="faq-title text-center pb-3">
+              <div className="faq-title text-center pb-3" data-aos="fade-up">
                 <h2>Frequently Asked Questions</h2>
               </div>
             </div>
             <div className="col-md-12 offset-md-12">
-              <div className="faq" id="accordion">
+              <div className="faq" id="accordion" data-aos="fade-down">
                 <div className="card">
                   <div className="card-header" id="faqHeading-1">
                     <div className="mb-0">

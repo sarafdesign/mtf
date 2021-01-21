@@ -8,7 +8,7 @@ import Circle2 from "../assets/img/Circle2.png";
 const Section1 = () => {
   return (
     <>
-      <section className="container">
+      <section className="container" id="beranda">
         <div className="row">
           <div className="konten col-12 col-md-6 col-lg-6">
             <h1 data-aos="fade-right">
