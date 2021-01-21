@@ -7,7 +7,7 @@ import "../assets/css/section6.css";
 const Section6 = () => {
   return (
     <>
-      <section className="container">
+      <section className="container" id="timeline">
         <div className="konten6">
           <img data-aos="fade-up" src={Schedule} className="gmbrkalender" alt="" />
           <h1 data-aos="fade-up">

@@ -7,11 +7,11 @@ import Bulet from "../assets/img/Side elements2.svg";
 const Hadiah = () => {
   return (
     <>
-      <div className="background">
-        <img src={Trophy} alt="" className="trophy" />
-        <img src={Bulet} alt="" className="bulet" />
+      <div className="background" id="hadiah">
+        <img src={Trophy} alt="" className="trophy" data-aos="fade-down" />
+        <img src={Bulet} alt="" className="bulet" data-aos="zoom-in" />
         <section className="container hadiah">
-          <div className="top">
+          <div className="top" data-aos="fade-down">
             <h1>Hadiah Peserta</h1>
             <br />
             <h3>
@@ -21,9 +21,9 @@ const Hadiah = () => {
           </div>
         </section>
         <div className="container-fluid">
-          <img src={Hand} alt="" className="hand" />
-          <div className="row justify-content-center">
-            <div className="kotak col-4 col-md-4 col-lg-4">
+          <img src={Hand} alt="" className="hand" data-aos="fade-up" />
+          <div className="row justify-content-center square" data-aos="flip-right" >
+            <div className="kotak col-md-4 col-lg-4 col-sm-8">
               <h2>
                 Juara 1 <br />
                 <br />
@@ -31,7 +31,7 @@ const Hadiah = () => {
                 <p className="teksduit">(Lima Puluh Juta Rupiah)</p>
               </h2>
             </div>
-            <div className="kotak col-4 col-md-4 col-lg-4">
+            <div className="kotak col-md-4 col-lg-4 col-sm-8">
               <h2>
                 Juara 2 <br />
                 <br />
@@ -39,7 +39,7 @@ const Hadiah = () => {
                 <p className="teksduit">(Dua Puluh Juta Rupiah)</p>
               </h2>
             </div>
-            <div className="kotak col-4 col-md-4 col-lg-4">
+            <div className="kotak col-md-4 col-lg-4 col-sm-8">
               <h2>
                 Juara 3 <br />
                 <br />

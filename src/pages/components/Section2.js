@@ -5,7 +5,7 @@ import Ornament3 from "../assets/img/Ornament3.png";
 const Section2 = () => {
   return (
     <>
-      <section className="container section2">
+      <section className="container section2" id="tentang">
         <div className="row">
           <div className="tempat col-12 col-md-5 col-lg-5">
             <img

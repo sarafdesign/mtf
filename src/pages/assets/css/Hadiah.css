@@ -77,3 +77,66 @@
   height: auto;
   width: 500px;
 }
+
+@media screen and (max-width: 500px) {
+  .background {
+    margin-top: 25%;
+  }
+
+  .trophy {
+    padding-top: 7.5%;
+    width: 25%;
+  }
+
+  .hadiah h1 {
+    margin-top: 5%;
+    font-size: 40px;
+  }
+
+  .hadiah h3 {
+    font-size: 20px;
+  }
+
+  .kotak {
+    max-width: 90% !important;
+    height: 250px;
+    margin: 5% 1%;
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #023e7a;
+  }
+
+  .hand {
+    position: absolute;
+    margin-top: -300px;
+    left: 0px;
+    height: auto;
+    width: 400px;
+    opacity: 0.3;
+  }
+  
+  .bulet {
+    position: absolute;
+    margin-top: -250px;
+    right: 160px;
+    height: auto;
+    width: 75%;
+    /* opacity: 0.3; */
+  }
+
+  .kotak h2 {
+    font-size: 40px;
+  }
+  
+  .kotak p {
+    font-size: 36px;
+  }
+  
+  .teksduit {
+    font-size: 18px !important;
+  }
+}

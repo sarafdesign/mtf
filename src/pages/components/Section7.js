@@ -12,7 +12,7 @@ import "../assets/css/section7.css";
 const Section7 = () => {
   return (
     <>
-      <section className="konten7">
+      <section className="konten7" id="kriteria">
         <div className="container">
           <h1 data-aos="fade-down">
             <b>Kriteria Penilaian</b>
