@@ -16,7 +16,7 @@
   font-size: 50px;
 }
 
-.konten button {
+.info {
   border-radius: 10px;
   padding-left: 40px;
   padding-right: 40px;
@@ -32,6 +32,12 @@
   position: absolute;
   top: 60px;
   left: 30px;
+}
+
+img.ornamentbg {
+  position: absolute;
+  right: 0;
+  /* top: -709px; */
 }
 
 .down {

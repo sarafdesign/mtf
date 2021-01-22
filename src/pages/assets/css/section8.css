@@ -40,10 +40,25 @@
     left: 10%;
     width: 25%;
     /* z-index: -99; */
-    opacity: 0.9 !important;
+    opacity: 0 !important;
   }
 
   .cloud2 {
     visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .ornament9 {
+    position: absolute;
+    top: -25px;
+    left: 200px;
+    width: 13%;
+  }
+  
+  .cloud2 {
+    position: absolute;
+    top: -120px;
+    right: 0px;
   }
 }

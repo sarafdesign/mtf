@@ -20,15 +20,21 @@ const Section1 = () => {
               permasalahan dalam bidang multifinance dengan menggunakan
               perkembangan teknologi dan inovasi digital.
             </p>
-            <button data-aos="fade-down">Info Selengkapnya</button>
+            <a href="#tentang">
+              <button className="info" data-aos="fade-down" href="#tentang">
+                Info Selengkapnya
+              </button>
+            </a>
           </div>
           <div className="col-12 col-md-6 col-lg-6">
-            <img
-              data-aos="fade-left"
-              className="ornament2"
-              src={Ornament2}
-              alt=""
-            />
+            <a href="#tentang">
+              <img
+                data-aos="fade-left"
+                className="ornament2"
+                src={Ornament2}
+                alt=""
+              />
+            </a>
           </div>
         </div>
 
@@ -36,7 +42,15 @@ const Section1 = () => {
         <img data-aos="fade-up" className="circle2" src={Circle2} alt="" />
 
         <div className="down">
-          <img data-aos="fade-down" className="buttonDown" src={ButtonDown} alt="" />
+          <a href="#tentang">
+            <img
+              data-aos="fade-down"
+              className="buttonDown"
+              src={ButtonDown}
+              alt=""
+              href="#tentang"
+            />
+          </a>
         </div>
       </section>
     </>

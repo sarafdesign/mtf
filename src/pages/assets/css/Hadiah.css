@@ -116,12 +116,12 @@
     left: 0px;
     height: auto;
     width: 400px;
-    opacity: 0.3;
+    opacity: 0.3 !important;
   }
   
   .bulet {
     position: absolute;
-    margin-top: -250px;
+    margin-top: -260px;
     right: 160px;
     height: auto;
     width: 75%;
@@ -138,5 +138,11 @@
   
   .teksduit {
     font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .hand {
+    opacity: 0.3 !important;
   }
 }
