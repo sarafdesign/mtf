@@ -235,8 +235,9 @@ const Faq = () => {
                   >
                     <div className="card-body">
                       <p>
-                        <span className="badge">6</span>Apakah peserta dikenakan
-                        biaya pendaftaran?
+                        Peserta tidak kenakan biaya apapun. Jika ada pihak lain
+                        diluar MTF yang meminta biaya pendaftaran dan lain –
+                        lain, itu adalah bentuk dari penipuan.
                       </p>
                     </div>
                   </div>
