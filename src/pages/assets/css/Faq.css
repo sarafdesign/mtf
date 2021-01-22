@@ -152,14 +152,14 @@
     width: 50%;
     height: auto;
     z-index: 0;
-    opacity: 0.5;
+    opacity: 0.5 !important;
   }
 
   .tri {
     position: absolute;
     right: 0px;
     margin-top: -125px;
-    opacity: 0.5;
+    opacity: 0.5 !important;
     width: 50%;
     height: auto;
   }
@@ -168,6 +168,6 @@
     position: absolute;
     right: 0px;
     margin-top: -25px;
-    opacity: 0;
+    opacity: 0 !important;
   }
 }

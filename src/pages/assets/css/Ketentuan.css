@@ -165,15 +165,15 @@
     height: auto;
     margin-top: -500px;
     right: 0px;
-    opacity: 0.3;
+    opacity: 0.3 !important;
     z-index: -1;
   }
   
   .button {
     max-width: 150px;
     height: auto;
-    right: 0px !important;
-    opacity: 0.3;
+    right: 0px;
+    opacity: 0.3 !important;
     z-index: -1;
   }
   
@@ -182,11 +182,28 @@
     height: auto;
     position: absolute;
     left: -15px;
-    opacity: 0.3;
+    opacity: 0.3 !important;
     z-index: -1;
   }
 
   .keterangan p {
     font-size: 24px !important;
+  }  
+}
+
+@media screen and (max-width: 1300px) {
+  .phone {
+    opacity: 0.3 !important;
+    z-index: -1;
+  }
+  
+  .button {
+    right: 10px;
+    z-index: -1;
+  }
+  
+  .circle {
+    opacity: 0.3 !important;
+    z-index: -1;
   }
 }
