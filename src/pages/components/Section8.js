@@ -31,8 +31,8 @@ const Section8 = () => {
             <b>Gallery</b>
           </h1>
           <div data-aos="fade-up">
-            <Carousel className="gallery" arrows infinite>
-              <img className="gbrgallery" src={gambar1} alt="" />
+            <Carousel className="gallery" plugins={["arrows", "infinite"]}>
+            <img className="gbrgallery" src={gambar1} alt="" />
               <img className="gbrgallery" src={gambar2} alt="" />
               <img className="gbrgallery" src={gambar3} alt="" />
               <img className="gbrgallery" src={gambar4} alt="" />
@@ -51,7 +51,12 @@ const Section8 = () => {
             </Carousel>
           </div>
         </div>
-        <img data-aos="fade-down" className="ornament9" src={ornament9} alt="" />
+        <img
+          data-aos="fade-down"
+          className="ornament9"
+          src={ornament9}
+          alt=""
+        />
         <img data-aos="fade-left" className="cloud2" src={cloud2} alt="" />
       </section>
     </>
