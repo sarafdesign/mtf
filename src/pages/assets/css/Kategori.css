@@ -47,6 +47,15 @@
   font-weight: bold;
 }
 
+.rectkategori small {
+  font-size: 15px;
+}
+
+.rectkategori small.last {
+  font-size: 12px;
+  line-height: 80% !important;
+}
+
 .comp {
   position: absolute;
   right: 100px;
@@ -95,6 +104,15 @@
   .rectkategori h2 {
     font-size: 24px;
     font-weight: bold;
+  }
+
+  .rectkategori small {
+    font-size: 11px;
+  }
+
+  .rectkategori small.last {
+    font-size: 9px;
+    line-height: 30% !important;
   }
 
   .kategori h1 {

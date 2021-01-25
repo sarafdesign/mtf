@@ -18,8 +18,8 @@ const Ketentuan = () => {
                   <p className="number">1</p>
                 </div>
                 <h2 className="text-odd">
-                  Mahasiswa dan atau professional yang sedang menjalankan
-                  perkuliahan dan atau telah lulus perkuliahan
+                  Kompetisi ini merupakan kompetisi berkelompok yang terdiri
+                  dari minimal 2 orang dan maksimal 3 orang
                 </h2>
               </div>
               <div className="point-content" data-aos="fade-left">
@@ -28,8 +28,9 @@ const Ketentuan = () => {
                   <p className="number">2</p>
                 </div>
                 <h2 className="text-even">
-                  Individu dan atau tim yang ingin mengembangkan project
-                  berbasis teknologi dan digital pada bidang multifinance
+                  Peserta dapat berprofesi sebagai mahasiswa maupun profesional
+                  yang tertarik dengan pengembangan teknologi dan menyelesaikan
+                  permasalahan yang terkait multifinance
                 </h2>
               </div>
               <div className="point-content" data-aos="fade-right">
@@ -38,8 +39,8 @@ const Ketentuan = () => {
                   <p className="number">3</p>
                 </div>
                 <h2 className="text-odd">
-                  Mahasiswa dan atau professional yang sedang menjalankan
-                  perkuliahan dan atau telah lulus perkuliahan
+                  Salah satu anggota tim harus menguasai programming,software
+                  development, data analyst, dan sejenisnya.
                 </h2>
               </div>
             </div>
@@ -49,15 +50,15 @@ const Ketentuan = () => {
                 <p className="number">4</p>
               </div>
               <h2 className="text-even">
-                Tidak sedang bekerja dalam satu ikatan perusahaan, atau tidak
-                punya hubungan internal dengan karyawan Mandiri Tunas Finance
+                Peserta yang berprofesi diluar mahasiswa, tidak diperkenankan
+                untuk terikat dalam suatu ikatan kerja pada sebuah badan hukum
               </h2>
             </div>
             <div className="card keterangan" data-aos="flip-up">
               <div className="card-body">
                 <p className="card-text">
-                  Kami mengajak kamu untuk bergabung dan mengikuti IT Business
-                  Case Competition 2021
+                  Kami mengajak kamu untuk bergabung dan mengikuti <br /> IT
+                  Business Case Competition 2021
                 </p>
               </div>
             </div>

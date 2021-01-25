@@ -20,10 +20,6 @@ const Section2 = () => {
               <b>Tentang MTF IT Business Competition</b>
             </h1>
             <p data-aos="fade-left">
-              IT Business Case Competition 2020 adalah ajang kompetisi yang
-              ditujukan untuk mahasiswa dan professional untuk menyelesaikan
-              permasalahan dalam bidang multifinance dengan menggunakan
-              perkembangan teknologi dan inovasi digital. <br />
               <br />
               IT Business Case Competition merupakan ajang tahunan yang diadakan
               oleh PT Mandiri Tunas Finance, dimana Business Case Competition
@@ -31,9 +27,9 @@ const Section2 = () => {
               tahun ini kembali diadakan dengan nama IT Business Case
               Competition. Acara ini selain bertujuan untuk menyelesaikan
               permasalahan di bidang multifinance melalui teknologi digital,
-              juga bertujuan untuk mendorong para innovator di Indonesia untuk
-              bersama – sama memajukan kemajuan industry multifinance, dan
-              tentunya untuk mengembangkan kemampuan para innovator itu sendiri
+              juga bertujuan untuk mendorong para inovator di Indonesia untuk
+              bersama – sama memajukan kemajuan industry multifinance dan
+              tentunya untuk mengembangkan kemampuan para inovator itu sendiri
               untuk menjadi lebih baik.
             </p>
           </div>

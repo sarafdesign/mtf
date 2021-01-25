@@ -72,8 +72,11 @@ const Kategori = () => {
                     <h2 className="card-text">
                       Collection Scoring <br /> <br />{" "}
                       <small>
-                        Sebuah sistem untuk menentukan parameter untuk
-                        menggambarkan risiko profil customer
+                        Merupakan sebuah inovasi berbasis digital dan tenologi
+                        berbentuk aplikasi atau website yang dapat melakukan
+                        penilaian secara otomatis terhadap profil risiko
+                        customer berdasarkan data yang ada guna menentukan jenis
+                        penanganan untuk penagihan kepada customer.
                       </small>
                     </h2>
                   </div>
@@ -81,10 +84,12 @@ const Kategori = () => {
                 <div className="card rectkategori">
                   <div className="card-body">
                     <h2 className="card-text">
-                      New mobile collection <br /> <br />{" "}
+                      E-Learning <br /> <br />{" "}
                       <small>
-                        Tracking pembayaran customer untuk meminimalisis fraud,
-                        dan SKT Online
+                        Merupakan sebuah inovasi berbasis digital dan tenologi
+                        berbentuk aplikasi atau website yang dapat dijadikan
+                        sebagai media pembelajaran secara daring yang bisa
+                        diakses oleh seluruh karyawan MTF.
                       </small>
                     </h2>
                   </div>
@@ -92,10 +97,13 @@ const Kategori = () => {
                 <div className="card rectkategori">
                   <div className="card-body">
                     <h2 className="card-text">
-                      E-Payment <br /> <br />{" "}
+                      Refferal <br /> <br />{" "}
                       <small>
-                        The new way of payment yang terintegrasi dalam mobile
-                        MTF Go
+                        Merupakan sebuah inovasi teknologi baik berbasis
+                        aplikasi ataupun website yang memungkinkan pihak
+                        eksternal untuk melakukan input order refferal, dan bisa
+                        melakukan tracking orderan baik untuk eksternal maupun
+                        internal.
                       </small>
                     </h2>
                   </div>
@@ -103,10 +111,13 @@ const Kategori = () => {
                 <div className="card rectkategori">
                   <div className="card-body">
                     <h2 className="card-text">
-                      Pameran Mobil Online <br /> <br />{" "}
+                      Payment Solution <br /> <br />{" "}
                       <small>
-                        Sebuah platform yang dapat diutilize sebagai partnership
-                        dengan dealer, bank mandiri maupun bsm
+                        Merupakan sebuah inovasi teknologi baik berbasis
+                        aplikasi ataupun website yang dapat meningkatkan
+                        pengalaman konsumen dalam penggunaan aplikasi digital
+                        MTF dengan fitur pembayaran (payment solution) yang
+                        dapat diandalkan oleh konsumen.
                       </small>
                     </h2>
                   </div>
@@ -114,9 +125,12 @@ const Kategori = () => {
                 <div className="card rectkategori">
                   <div className="card-body">
                     <h2 className="card-text">
-                      Loyalty Program <br /> <br />{" "}
+                      Media Marketing Automation <br /> <br />{" "}
                       <small>
-                        Sebuah enhancement MTF Go untuk customer existing MTF
+                        Merupakan sebuah inovasi teknologi baik berbasis
+                        aplikasi ataupun website yang dapat menjadi media
+                        marketing automation MTF yang memudahkan konsumen dalam
+                        memilih dan mengajukan berbagai macam pembiayaan.
                       </small>
                     </h2>
                   </div>
@@ -124,14 +138,21 @@ const Kategori = () => {
                 <div className="card rectkategori">
                   <div className="card-body">
                     <h2 className="card-text">
-                      Dashboard SLA <br /> <br />{" "}
-                      <small>
-                        Dashboard yang bisa memantau SLA pencairan multiguna
+                      New Mobile Survey <br />{" "}
+                      <small className="last">
+                        Merupakan sebuah inovasi teknologi baik berbasis
+                        aplikasi ataupun website yang dapat meningkatkan
+                        produktivitas karyawan dengan proses survey yang lebih
+                        mudah yang terhubung dan terintegrasi langsung dengan
+                        sistem internal perusahaan dan memiliki akses ke pihak
+                        ketiga terkait seperti dukcapil, akses SLIK, Credit
+                        Calculation, Web Service/aplikasi mobile lainnya (jika
+                        tersedia), hingga digital signing
                       </small>
                     </h2>
                   </div>
                 </div>
-                <div className="card rectkategori">
+                {/* <div className="card rectkategori">
                   <div className="card-body">
                     <h2 className="card-text">
                       Online Taksasi <br /> <br />{" "}
@@ -152,7 +173,7 @@ const Kategori = () => {
                       </small>
                     </h2>
                   </div>
-                </div>
+                </div> */}
               </Carousel>
             </div>
           </div>

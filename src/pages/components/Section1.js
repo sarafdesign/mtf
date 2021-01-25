@@ -16,7 +16,7 @@ const Section1 = () => {
             </h1>
             <p data-aos="fade-right">
               IT Business Case Competition 2020 adalah ajang kompetisi yang
-              ditujukan untuk mahasiswa dan professional untuk menyelesaikan
+              ditujukan untuk mahasiswa dan profesional untuk menyelesaikan
               permasalahan dalam bidang multifinance dengan menggunakan
               perkembangan teknologi dan inovasi digital.
             </p>
