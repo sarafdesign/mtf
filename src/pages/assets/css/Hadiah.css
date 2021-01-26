@@ -118,7 +118,7 @@
     width: 400px;
     opacity: 0.3 !important;
   }
-  
+
   .bulet {
     position: absolute;
     margin-top: -260px;
@@ -131,17 +131,23 @@
   .kotak h2 {
     font-size: 40px;
   }
-  
+
   .kotak p {
     font-size: 36px;
   }
-  
+
   .teksduit {
     font-size: 18px !important;
   }
 }
 
 @media screen and (max-width: 1300px) {
+  .hand {
+    opacity: 0.3 !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
   .hand {
     opacity: 0.3 !important;
   }

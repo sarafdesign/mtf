@@ -48,17 +48,32 @@
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   .ornament9 {
     position: absolute;
     top: -25px;
     left: 200px;
-    width: 13%;
+    width: 15%;
   }
-  
+
   .cloud2 {
     position: absolute;
     top: -120px;
     right: 0px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1600px) {
+  .ornament9 {
+    position: absolute;
+    top: -76px;
+    left: 310px;
+    width: 15%;
+  }
+
+  .cloud2 {
+    position: absolute;
+    top: -120px;
+    right: 150px;
   }
 }
