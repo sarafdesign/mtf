@@ -72,7 +72,7 @@ const Kategori = () => {
                     <h2 className="card-text">
                       Collection Scoring <br /> <br />{" "}
                       <small>
-                        Merupakan sebuah inovasi berbasis digital dan tenologi
+                        Merupakan sebuah inovasi berbasis digital dan teknologi
                         berbentuk aplikasi atau website yang dapat melakukan
                         penilaian secara otomatis terhadap profil risiko
                         customer berdasarkan data yang ada guna menentukan jenis
@@ -86,7 +86,7 @@ const Kategori = () => {
                     <h2 className="card-text">
                       E-Learning <br /> <br />{" "}
                       <small>
-                        Merupakan sebuah inovasi berbasis digital dan tenologi
+                        Merupakan sebuah inovasi berbasis digital dan teknologi
                         berbentuk aplikasi atau website yang dapat dijadikan
                         sebagai media pembelajaran secara daring yang bisa
                         diakses oleh seluruh karyawan MTF.
