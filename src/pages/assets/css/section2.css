@@ -22,8 +22,10 @@
   margin-top: 5%;
   margin-bottom: 5%;
   font-size: 20px;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
+  /* word-break: keep-all; */
+  /* text-justify: auto; */
+  /* word-spacing: auto; */
 }
 
 .konten2 h1 {

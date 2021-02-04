@@ -57,8 +57,8 @@ const Ketentuan = () => {
             <div className="card keterangan" data-aos="flip-up">
               <div className="card-body">
                 <p className="card-text">
-                  Kami mengajak kamu untuk bergabung dan mengikuti <br /> IT
-                  Business Case Competition 2021
+                  Kami mengajak kamu untuk bergabung <br />
+                  dan mengikuti <br /> IT Business Case Competition 2021
                 </p>
               </div>
             </div>

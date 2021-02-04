@@ -26,8 +26,8 @@
 }
 
 .rectkategori {
-  width: 25rem;
-  height: 20rem;
+  width: 35rem;
+  height: 30rem;
   color: black;
   background: white;
   border: 2px solid #ffffff;
@@ -43,17 +43,17 @@
 }
 
 .rectkategori h2 {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
 }
 
 .rectkategori small {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .rectkategori small.last {
-  font-size: 12px;
-  line-height: 80% !important;
+  font-size: 18px;
+  line-height: 25% !important;
 }
 
 .comp {
@@ -86,13 +86,13 @@
 @media screen and (max-width: 500px) {
   .rectkategori {
     width: 20rem;
-    height: 15rem;
+    height: 20rem;
     color: black;
     background: white;
-    border: 2px solid #ffffff;
+    border: 0px solid #ffffff;
     box-sizing: border-box;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 10px !important;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0px !important;
     text-align: center !important;
     vertical-align: middle !important;
     justify-content: center !important;
@@ -102,17 +102,20 @@
   }
 
   .rectkategori h2 {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: bold;
   }
 
   .rectkategori small {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .rectkategori small.last {
-    font-size: 9px;
-    line-height: 30% !important;
+    font-size: 11px;
+  }
+
+  .rectkategori h2.last {
+    line-height: 0.9 !important;
   }
 
   .kategori h1 {
