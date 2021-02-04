@@ -137,7 +137,7 @@ const Kategori = () => {
                 </div>
                 <div className="card rectkategori">
                   <div className="card-body">
-                    <h2 className="card-text">
+                    <h2 className="card-text last">
                       New Mobile Survey <br />{" "}
                       <small className="last">
                         Merupakan sebuah inovasi teknologi baik berbasis
@@ -154,10 +154,10 @@ const Kategori = () => {
                 </div>
                 <div className="card rectkategori">
                   <div className="card-body">
-                    <h2 className="card-text">
-                      Costumer Care
+                    <h2 className="card-text last">
+                      Customer Care
                       <br />
-                      <small>
+                      <small className="last">
                         Merupakan sebuah inovasi teknologi baik berbasis
                         aplikasi ataupun website yang dapat menghimpun semua
                         laporan pengaduan secara otomatis dari customer melalui
