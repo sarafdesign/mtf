@@ -31,7 +31,7 @@ const Section6 = () => {
             <li className="active">
               <b>Registration</b>
               <br />
-              <p>1st February – 28th February 2021</p>
+              <p>8th February – 8th march 2021</p>
             </li>
             <li>
               <b>

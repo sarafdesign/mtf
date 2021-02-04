@@ -97,11 +97,11 @@ const Kategori = () => {
                 <div className="card rectkategori">
                   <div className="card-body">
                     <h2 className="card-text">
-                      Refferal <br /> <br />{" "}
+                      Referral <br /> <br />{" "}
                       <small>
                         Merupakan sebuah inovasi teknologi baik berbasis
                         aplikasi ataupun website yang memungkinkan pihak
-                        eksternal untuk melakukan input order refferal, dan bisa
+                        eksternal untuk melakukan input order referral, dan bisa
                         melakukan tracking orderan baik untuk eksternal maupun
                         internal.
                       </small>
@@ -128,9 +128,9 @@ const Kategori = () => {
                       Media Marketing Automation <br /> <br />{" "}
                       <small>
                         Merupakan sebuah inovasi teknologi baik berbasis
-                        aplikasi ataupun website yang dapat menjadi media
-                        marketing automation MTF yang memudahkan konsumen dalam
-                        memilih dan mengajukan berbagai macam pembiayaan.
+                        aplikasi ataupun website yang dapat membuat dan
+                        membagikan design konten promosi yang ada di
+                        aplikasi/website MTF secara otomatis.
                       </small>
                     </h2>
                   </div>
@@ -148,6 +148,39 @@ const Kategori = () => {
                         ketiga terkait seperti dukcapil, akses SLIK, Credit
                         Calculation, Web Service/aplikasi mobile lainnya (jika
                         tersedia), hingga digital signing
+                      </small>
+                    </h2>
+                  </div>
+                </div>
+                <div className="card rectkategori">
+                  <div className="card-body">
+                    <h2 className="card-text">
+                      Costumer Care
+                      <br />
+                      <small>
+                        Merupakan sebuah inovasi teknologi baik berbasis
+                        aplikasi ataupun website yang dapat menghimpun semua
+                        laporan pengaduan secara otomatis dari customer melalui
+                        berbagai sarana (online dan offline), sehingga seluruh
+                        petugas pemberi layanan dapat memberikan informasi yang
+                        tepat dan seragam dan mendukung proses pemberian
+                        informasi yang lebih cepat.
+                      </small>
+                    </h2>
+                  </div>
+                </div>
+                <div className="card rectkategori">
+                  <div className="card-body">
+                    <h2 className="card-text">
+                      Sales Performance
+                      <br />
+                      <br />
+                      <small>
+                        Merupakan sebuah inovasi teknologi baik berbasis
+                        aplikasi ataupun website yang memungkinkan para karyawan
+                        sales dapat memantau performance dan reward secara
+                        langsung sehingga karyawan dapat lebih terpacu dalam
+                        meningkatkan produktivitas.
                       </small>
                     </h2>
                   </div>
