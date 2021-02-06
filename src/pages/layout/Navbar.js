@@ -96,7 +96,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#beranda" onClick={openModalLog}>
+              <a className="nav-link" onClick={openModalLog}>
                 <b>Masuk</b>
               </a>
             </li>
