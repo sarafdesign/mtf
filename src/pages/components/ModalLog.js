@@ -39,9 +39,13 @@ export const ModalLog = ({ showModalLog, setShowModalLog }) => {
       .then((res) => {
         console.log(res);
         // setUserSession(res.data.token, res.data.id, res.data.fullName);
+        alert("Login Berhasil");
         setTimeout(() => {
-          setLoading(false);
+          setShowModalLog((prev) => !prev);
         }, 2000);
+        setTimeout(() => {
+          history.push("/");
+        }, 3000);
         // history.push("/sidemenu/dashboard");
       })
       .catch((error) => {

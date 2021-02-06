@@ -47,6 +47,13 @@ export const ModalReg = ({ showModalReg, setShowModalReg }) => {
             console.log("Ini Hasil:");
             console.log(res);
             console.log("Berhasil Register");
+            alert("Registrasi Berhasil");
+            setTimeout(() => {
+              setShowModalReg((prev) => !prev);
+            }, 2000);
+            setTimeout(() => {
+              history.push("/");
+            }, 3000);
           })
           .catch((error) => {
             setLoading(false);
