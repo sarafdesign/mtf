@@ -28,3 +28,81 @@ button.nav-link {
     width: 30%;
   }
 }
+
+.backgroundModal {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.ModalWrapper {
+  width: 432px;
+  height: auto;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #000;
+  /* display: grid;
+    grid-template-columns: 1fr; */
+  position: relative;
+  z-index: 10;
+  border-radius: 5px;
+}
+
+.ModalContent {
+  width: 368px;
+  height: auto;
+  /* border: 15px solid green; */
+  padding: 55px 0px !important;
+  margin: 35px !important;
+  z-index: 10;
+  line-height: 1.8;
+  color: #141414;
+}
+
+.ModalContent h4 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.ModalContent p {
+  margin-bottom: 1rem;
+}
+
+.ModalContent button {
+  padding: 5px 24px;
+  background: #023e7a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+.CloseModalButton {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  z-index: 10;
+}
+
+.ModalWrapperLog {
+  width: 432px;
+  height: 436.49px;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #000;
+  /* display: grid;
+    grid-template-columns: 1fr; */
+  position: relative;
+  z-index: 10;
+  border-radius: 5px;
+}
