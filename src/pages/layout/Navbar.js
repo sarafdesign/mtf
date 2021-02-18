@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../assets/css/navbar.css";
 import { Button } from "reactstrap";
 import Logo from "../assets/img/Logo.png";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { ModalReg } from "../components/ModalReg";
 import { ModalLog } from "../components/ModalLog";
@@ -10,7 +10,7 @@ import { ModalLog } from "../components/ModalLog";
 const Navbar = () => {
   // const [collapsed, setCollapsed] = useState(true);
   // const toggleNavbar = () => setCollapsed(!collapsed);
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   const [showModalLog, setShowModalLog] = useState(false);
   const openModalLog = () => {
     setShowModalLog((prev) => !prev);
@@ -19,7 +19,7 @@ const Navbar = () => {
   const openModalReg = () => {
     setShowModalReg((prev) => !prev);
   };
-  let history = useHistory();
+  // let history = useHistory();
 
   return (
     <>
