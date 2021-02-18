@@ -4,6 +4,7 @@ import Ornament2 from "../assets/img/Ornament2.png";
 import ButtonDown from "../assets/img/down.png";
 import Circle1 from "../assets/img/Circle1.png";
 import Circle2 from "../assets/img/Circle2.png";
+import { HashLink } from "react-router-hash-link";
 
 const Section1 = () => {
   return (
@@ -20,21 +21,21 @@ const Section1 = () => {
               permasalahan dalam bidang multifinance dengan menggunakan
               perkembangan teknologi dan inovasi digital.
             </p>
-            <a href="#tentang">
+            <HashLink to="#tentang">
               <button className="info" data-aos="fade-down" href="#tentang">
                 Info Selengkapnya
               </button>
-            </a>
+            </HashLink>
           </div>
           <div className="col-12 col-md-6 col-lg-6">
-            <a href="#tentang">
+            <HashLink to="#tentang">
               <img
                 data-aos="fade-left"
                 className="ornament2"
                 src={Ornament2}
                 alt=""
               />
-            </a>
+            </HashLink>
           </div>
         </div>
 
@@ -42,7 +43,7 @@ const Section1 = () => {
         <img data-aos="fade-up" className="circle2" src={Circle2} alt="" />
 
         <div className="down">
-          <a href="#tentang">
+          <HashLink to="#tentang">
             <img
               data-aos="fade-down"
               className="buttonDown"
@@ -50,7 +51,7 @@ const Section1 = () => {
               alt=""
               href="#tentang"
             />
-          </a>
+          </HashLink>
         </div>
       </section>
     </>

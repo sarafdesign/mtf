@@ -37,7 +37,7 @@ export const ModalLog = ({ showModalLog, setShowModalLog }) => {
     axios
       .post(`http://mtf-backend.herokuapp.com/api/login`, user)
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         // setUserSession(res.data.token, res.data.id, res.data.fullName);
         alert("Login Berhasil");
         setTimeout(() => {
@@ -53,7 +53,7 @@ export const ModalLog = ({ showModalLog, setShowModalLog }) => {
           setLoading(false);
         }, 1000);
         alert("Akun Tidak Ditemukan");
-        console.log(error);
+        // console.log(error);
       });
   };
 

@@ -19,7 +19,7 @@ export const ModalReg = ({ showModalReg, setShowModalReg }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [password2, setPassword2] = useState("");
-  const [error, setError] = useState(null);
+  const [setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const handleChange1 = (e) => setFirstName(e.target.value);
@@ -39,14 +39,14 @@ export const ModalReg = ({ showModalReg, setShowModalReg }) => {
       password: password,
       password2: password2,
     };
-    if (password.length == 8) {
+    if (password.length === 8) {
       if (password === password2) {
         axios
           .post(`http://mtf-backend.herokuapp.com/api/register`, user)
           .then((res) => {
-            console.log("Ini Hasil:");
-            console.log(res);
-            console.log("Berhasil Register");
+            // console.log("Ini Hasil:");
+            // console.log(res);
+            // console.log("Berhasil Register");
             alert("Registrasi Berhasil");
             setTimeout(() => {
               setShowModalReg((prev) => !prev);
@@ -57,8 +57,8 @@ export const ModalReg = ({ showModalReg, setShowModalReg }) => {
           })
           .catch((error) => {
             setLoading(false);
-            console.log("salah");
-            console.log(error);
+            // console.log("salah");
+            // console.log(error);
           });
       } else {
         setTimeout(() => {
@@ -80,11 +80,11 @@ export const ModalReg = ({ showModalReg, setShowModalReg }) => {
   };
   return (
     <>
-      {console.log("nama-pertama:" + firstName)}
+      {/* {console.log("nama-pertama:" + firstName)}
       {console.log("nama-kedua:" + lastName)}
       {console.log("email:" + email)}
       {console.log("Pass:" + password)}
-      {console.log("Pass2:" + password2)}
+      {console.log("Pass2:" + password2)} */}
       {showModalReg ? (
         <div className="backgroundModal" ref={modalRef} onClick={closeModal}>
           <animated.div style={animation}>
