@@ -3,6 +3,7 @@ import "../assets/css/navbar.css";
 import { Button } from "reactstrap";
 import Logo from "../assets/img/Logo.png";
 import { useHistory } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { ModalReg } from "../components/ModalReg";
 import { ModalLog } from "../components/ModalLog";
 
@@ -34,7 +35,7 @@ const Navbar = () => {
         />
       </div>
       <nav className="navbar navbar-expand-lg navbar-light container">
-        {/* <a href="navbar-brand">Logo</a> */}
+        {/* <HashLink href="navbar-brand">Logo</HashLink> */}
         <img className="navbar-brand" src={Logo} alt="" />
         <button
           className="navbar-toggler"
@@ -56,49 +57,49 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#beranda">
+              <HashLink className="nav-link" to="#beranda">
                 Beranda
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#tentang">
+              <HashLink className="nav-link" to="#tentang">
                 Tentang
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#ketentuan">
+              <HashLink className="nav-link" to="#ketentuan">
                 Peserta
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#hadiah">
+              <HashLink className="nav-link" to="#hadiah">
                 Hadiah
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#kategori">
+              <HashLink className="nav-link" to="#kategori">
                 Kategori
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#timeline">
+              <HashLink className="nav-link" to="#timeline">
                 Timeline
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#kriteria">
+              <HashLink className="nav-link" to="#kriteria">
                 Kriteria
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#faq">
+              <HashLink className="nav-link" to="#faq">
                 FAQ
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" onClick={openModalLog}>
+              <HashLink className="nav-link" onClick={openModalLog}>
                 <b>Masuk</b>
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
               <Button className="nav-link" onClick={openModalReg}>
