@@ -25,7 +25,7 @@ const Section2 = () => {
               oleh PT Mandiri Tunas Finance, dimana Business Case Competition
               pertama diadakan pada tahun 2019, dilanjutkan pada tahun 2020 dan
               tahun ini kembali diadakan dengan nama IT Business Case
-              Competition. Acara ini selain bertujuan untuk menyelesaikan
+              Competition 2021. Acara ini selain bertujuan untuk menyelesaikan
               permasalahan di bidang multifinance melalui teknologi digital,
               juga bertujuan untuk mendorong para inovator di Indonesia untuk
               bersama – sama memajukan kemajuan industry multifinance dan
