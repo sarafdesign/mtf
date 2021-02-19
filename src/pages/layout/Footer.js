@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className="single-cta">
                   <div className="cta-text-contact">
                     <h4>Contact us</h4>
-                    <a href="http://line.me/ti/p/@karirmtf" target="_blank"><i class="fab fa-line line-bg"></i>{" "}</a>
+                    <a href="https://line.me/ti/p/@karirmtf" target="_blank"><i class="fab fa-line line-bg"></i>{" "}</a>
                     <a href="https://www.instagram.com/karirmtf/" target="_blank"><i class="fab fa-instagram instagram-bg"></i>{" "}</a>
                   </div>
                 </div>
