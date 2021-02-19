@@ -10,6 +10,7 @@ import Ketentuan from "./components/Ketentuan";
 import Hadiah from "./components/Hadiah";
 import Kategori from "./components/Kategori";
 import Faq from "./components/Faq";
+import Footer from "./layout/Footer"
 import "./assets/css/Landing.css";
 
 const LandingPage = () => {
@@ -27,6 +28,7 @@ const LandingPage = () => {
         <Section7 />
         <Section8 />
         <Faq />
+        <Footer />
       </div>
     </>
   );

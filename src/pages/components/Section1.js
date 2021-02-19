@@ -13,10 +13,10 @@ const Section1 = () => {
         <div className="row">
           <div className="konten col-12 col-md-6 col-lg-6">
             <h1 data-aos="fade-right">
-              <b>MTF IT Business Case Competition</b>
+              <b>MTF IT Business Case Competition 2021</b>
             </h1>
             <p data-aos="fade-right">
-              IT Business Case Competition 2020 adalah ajang kompetisi yang
+              IT Business Case Competition 2021 adalah ajang kompetisi yang
               ditujukan untuk mahasiswa dan profesional untuk menyelesaikan
               permasalahan dalam bidang multifinance dengan menggunakan
               perkembangan teknologi dan inovasi digital.
